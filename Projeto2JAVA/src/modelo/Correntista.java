@@ -42,7 +42,7 @@ public class Correntista {
     public ArrayList<Integer> getIdsContas() {
         ArrayList<Integer> ids = new ArrayList<>();
         for (Conta conta : contas) {
-            ids.add(conta.getId()); // Supondo que exista um método getId() na classe Conta
+            ids.add(conta.getId()); 
         }
         return ids;
     }
